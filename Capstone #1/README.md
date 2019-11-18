@@ -21,7 +21,7 @@ Predictive modeling will be used to solve the problem stated above. An analysis 
 The approach during the exploratory data analysis phase will be hypothesis-driven.  The hypothesis tree which will be used is provided below in Figure 1. Once it is determined which features are relevant, several machine learning models will be trained and evaluated on the performance
 
 
-** Deliverables **
+**Deliverables**
 * Jupyter Notebook
    * Data wrangling and cleaning
    * Modeling and prediction
