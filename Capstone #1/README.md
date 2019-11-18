@@ -1,4 +1,4 @@
-﻿Capstone #1 Proposal
+# Capstone #1 Proposal
 Rain or Shine - NFL
 
 
