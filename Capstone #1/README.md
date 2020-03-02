@@ -16,9 +16,6 @@ Predictive modeling will be used to solve the problem stated above. An analysis 
 
 The approach during the exploratory data analysis phase will be hypothesis-driven.  The hypothesis tree which will be used is provided below in Figure 1. Once it is determined which features are relevant, several machine learning models will be trained and evaluated on the performance
 
-
-**[Data Story](https://github.com/rezalution/Springboard/tree/master/Capstone%20%231/Exploratory%20Analysis)**
-
 **[Data Wrangling/Data Cleaning](https://github.com/rezalution/Springboard/tree/master/Capstone%20%231/Data%20Wrangling)**
 
 The data for this project comes from Kaggle, with all data coming from 3 csv files.
@@ -31,7 +28,13 @@ The data for this project comes from Kaggle, with all data coming from 3 csv fil
 
 The data consists of historical NFL data from 1966 to 2019. Team and stadium data have various columns, the main focus will be on stadium and field type, as well as location. Game data during the date range is also included from various public websites such as ESPN, NFL.com, and Pro Football Reference. This dataset consists of multiple columns for game analysis including teams playing, stadium, score, and weather data. The weather information is provided from NOAA data. 
 
+**[Data Story](https://github.com/rezalution/Springboard/tree/master/Capstone%20%231/Exploratory%20Analysis)**
+
+When using a scatter plot to see the relationship between weather temperatures and score difference, it is too close to determine visually if there is any trend between the two. There seems to be an equal amount of positive score differences to negative score differences. Further analysis will need to be done to test.
+
 **[Statistical Data Analysis](https://github.com/rezalution/Springboard/tree/master/Capstone%20%231/Statistical%20Analysis)**
+
+After using statistical analysis to test correlations, only a very slight correlation was made between weather conditions and an advantage. There was a slight correlation that away teams perform worse in more extreme weather conditions, but the correlation value was too small to infer a strong connected between the two.
 
 **[Machine Learning](https://github.com/rezalution/Springboard/tree/master/Capstone%20%231/Machine%20Learning)**
 
