@@ -17,9 +17,9 @@ Predictive modeling will be used to solve the problem stated above. An analysis 
 The approach during the exploratory data analysis phase will be hypothesis-driven.  The hypothesis tree which will be used is provided below in Figure 1. Once it is determined which features are relevant, several machine learning models will be trained and evaluated on the performance
 
 
-**Exploratory Analysis** [Exploratory Analysis](https://github.com/rezalution/Springboard/tree/master/Capstone%20%231/Exploratory%20Analysis)
+**[Exploratory Analysis](https://github.com/rezalution/Springboard/tree/master/Capstone%20%231/Exploratory%20Analysis)**
 
-**Data Wrangling**
+**[Data Wrangling](https://github.com/rezalution/Springboard/tree/master/Capstone%20%231/Data%20Wrangling)**
 
 The data for this project comes from Kaggle, with all data coming from 3 csv files.
 1.	nfl_teams
