@@ -70,10 +70,17 @@ A factor for this shift is with binning and taking the mean of each there is a l
 
 After using statistical analysis to test correlations, only a very slight correlation was made between weather conditions and an advantage. There was a slight correlation that away teams perform worse in more extreme weather conditions, but the correlation value was too small to infer a strong connected between the two.
 
+**Machine Learning**
+Random Forrest Classifier was choosen was the machine learning model method because one of the most accurate out of the box classifiers.
 
-**Deliverables**
-* Jupyter Notebook
-   * Data wrangling and cleaning
-   * Modeling and prediction
-* Reports
-   * Milestones and Final
+Three features were used for the model (Temperature, humidity, and wind). The first run that used a combination of all 3 only had a 0.52 accuracy score. This low shows only that the model is only accurately predicting the correct label 50% of the time. When checking the impact factor the features, I found that wind had the least importance wiht only only 0.18.
+
+The model was then trained and run without wind. This had similar outcomes as the previous run, with only .001 increase. 
+
+I then trained and ran the model with only temperture as a feature. This had the highest accuracy score, though it was only .519. Also I found that the models were better at prediciting the home team winning than losing with a precision score of 0.57 to 0.43 and recall score of 0.62 to 0.38. 
+
+After run all three models, I can conclude that weather does not significantly effect the outcome of an NFL game. All three models had low prediction scores which indicts that there is no real correlation between the outcome of a game and weather conditions. If there was a correlation the model would be able to use the features to accurately predict the outcome. The prediction score would be alot higher than the ones received. This also correlates to what I found in the statistical anaylsis that showed low correlation scores between winning score and the weather.
+
+**Conclusion**
+With all the analysis done, I can conclude that the hypothesis that weather has an effect on the outcome a NFL games is null. When doing the exploratory analysis there seemed to be a correlation between weather conditons and game outcome, but that was because of outliers and how the data was grouped. When actyal statistical and machine learning anaylsis was done, it was shown that the correlation is far too low. 
+
