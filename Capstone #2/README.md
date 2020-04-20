@@ -1,7 +1,7 @@
 
-#Capstone #2 Proposal
+# Capstone #2 Proposal
 
-##A Picture Speaks a Billion Words
+## A Picture Speaks a Billion Words
 
 **Problem**
 
