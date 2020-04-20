@@ -1,5 +1,5 @@
 
-Capstone #2 Proposal
+<h1>Capstone #2 Proposal<h1>
 
 A Picture Speaks a Billion Words
 
